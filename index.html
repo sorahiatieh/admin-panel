@@ -86,6 +86,7 @@
                                 <a href="#" class="dropdown-item">پروژه جدید ...</a>
                                 <a href="#" class="dropdown-item">تنظیمات</a>
                                 <a href="#" class="dropdown-item">پروفایل</a>
+                                <hr>
                                 <a href="#" class="dropdown-item">خروج</a>
                             </li>
                         </ul>
@@ -426,7 +427,7 @@
                             <div class="col-12 col-sm-6">
                                 <div>
                                     <label for="" class="form-label">شغل</label>
-                                    <select class="form-control">
+                                    <select class="form-select">
                                         <option value="" selected>دانشجو</option>
                                         <option value="">برنامه نویس</option>
                                         <option value="">آزاد</option>
@@ -458,16 +459,17 @@
             <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">تغییر تم</button>
             <ul class="dropdown-menu">
                 <li>
-                    <button class="dropdown-item active">روشن</button>
+                    <button class="dropdown-item active" id="lightModeBtn">روشن</button>
                 </li>
                 <li>
-                    <button class="dropdown-item">تاریک</button>
+                    <button class="dropdown-item" id="darkModeBtn">تاریک</button>
                 </li>
             </ul>
         </div>
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
